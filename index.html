@@ -23,10 +23,10 @@
 
     <title>noroZaide.softwareDeveloper</title>
   </head>
-  <body class="text-dark">
+  <body class="text-light">
 
   		<!-- Navbar -->	
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+  <nav id="navFont" class="navbar navbar-expand-lg bg-muted navbar-dark ">
   	<div class="container">
   	
   		<button 
@@ -60,21 +60,21 @@
                <!-- Home/Landing page-->
    <div id="home" class="w3-container w3-animate-opacity container align-items-center my-4">
     <div class="row justify-content-center">
-      <div class="col-12 col-sm-12 col-md-4 col-lg-6">
-        <h3 class="p-3">
+      <div class="col-12 col-sm-12 col-md-7 col-lg-6">
+        <h3 class="py-2">
           <strong>I'm</strong>
         </h3>
-        <h1 id="fullName" class="p-3">
+        <h1 id="fullName" class="py-3">
           <strong>NORO ZAIDE</strong>
         </h1>
-        <h1  class="p-3">
+        <h1  class="py-3">
           <strong id="myFunc">myFunction() =</strong> <strong id="role">Software Engineer</strong>
         </h1>
-        <button class="animatedButton" onclick="window.location='#contact';"> HIRE ME </button>
+        <button class="text-center animatedButton" onclick="window.location='#contact';"> HIRE ME </button>
 
       </div>
       <div class="col-12 col-sm-12 col-md-5 col-lg-6 py-4">
-        <img id="landing1" src="img/developer.jpg" class="img-fluid" alt="image">
+        <img id="landingphoto" src="img/developer.jpg" class="img-fluid" alt="image">
        </div>
     </div>
   </div>
@@ -92,19 +92,19 @@
     <div id="about" class="container align-items-center py-4 my-4" aos="fade-left">
           <div class="row mx-auto">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-              <img id="aboutme" src="img/freak.jpg" class="img-fluid p-4" alt="image">
+              <img id="aboutme1" src="img/freak.jpg" class="img-fluid p-4" alt="image">
              </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-              <h1>
+              <h1 class="text-center">
                  <strong>ABOUT ME</strong>
               </h1>
-              <h2>
+              <h2 class="text-center">
                  I am Simple but I <strong> ROCK! </strong> 
               </h2>
-              <h2>
+              <h2 class="text-center">
                 EAT. SLEEP. <strong> CODE. </strong>
               </h2>
-               <h2>
+               <h2 class="text-center">
                 I like to design and focus on UI.
               </h2>
             
@@ -117,7 +117,7 @@
           <div class="row mx-auto">
 
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-2 order-md-1">
               <h2>
                  I love <strong> food </strong> and I love to <strong> code! </strong>
               </h2>
@@ -131,8 +131,8 @@
             </div>
 
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-              <img id="aboutme" src="img/coding.jpg" class="img-fluid p-4" alt="image">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-1 order-md-2">
+              <img id="aboutme2" src="img/coding.jpg" class="img-fluid p-4" alt="image">
              </div>
 
           </div>
@@ -215,35 +215,34 @@
                  <strong >Contact me:</strong>
               </h1>
 
-              <form class="container bg-muted p-4 mt-3">
+              <form class="text-light container bg-muted p-4 mt-3">
                     <div class="row justify-content-center">
                       <div class="col-12 col-md-8 col-lg-4 p-2 text-light mx-auto bg-muted text-dark">
-                        <div class="">
+                        <div class="text-light">
                             <label for="fullName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="fullname" placeholder="Your Name" >
+                            <input type="text" class="form-control" id="fullname" >
                         </div>
 
-                        <div class="">
+                        <div class="text-light">
                           <label for="Email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" >
                         </div>
 
-                        <div class="">
+                        <div class="text-light">
                             <label for="contactNumber" class="form-label">Contact Number</label>
-                            <input type="number" class="form-control" id="contactNumber" placeholder="+63 900 000 0000">
+                            <input type="number" class="form-control" id="contactNumber" >
                         </div>
                         
-                        <div class="form-group">
+                        <div class="form-group text-light">
                             <label for="exampleFormControlSelect1" class="text-white">Concern</label>
                             <select class="form-control" id="exampleFormControlSelect1">
+                              <option>Book an Appointment</option>
                               <option>Quotation</option>
                               <option>Inquiry</option>
-                              <option>Book an Appointment</option>
-                              <option>Semi Column</option>
                             </select>
                           </div>
                         
-                        <div class="">
+                        <div class="text-light">
                             <label for="exampleFormControlTextarea1">Message</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
                         </div>
@@ -291,7 +290,7 @@
 
 
           <!--  Footer/Social Media, Sections, etc. -->  
-  <footer class="bg-dark text-light mt-4 p-4 text-center">
+  <footer class="bg-muted text-light mt-4 p-4 text-center">
 
 
     <p>&copy; BTB, 2022. All rights reserved.</p>
