@@ -7,30 +7,39 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 
+@import url('http://fonts.cdnfonts.com/css/valorant');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-/*  	background-image: url(img/background.jpg);*/
-/*  	background-color: #EECF6D;*/
+  	background-image: url(img/background.jpg);
+  	background-color: #EECF6D;
 
     font-family: 'Lato', sans-serif;
-/*    background-blend-mode: screen;
-*/
+    background-blend-mode: screen;
+
     background: rgb(170,41,255);
     background: linear-gradient(90deg, rgba(170,41,255,1) 0%, rgba(63,76,251,1) 50%, rgba(10,0,57,1) 100%);
-
 
   }
 /*
 to make a decagon shape developer profile picture*/
 #landingphoto {
-  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
-  text-shadow: 2px 2px red;
+  clip-path: polygon(100% 9%, 81% 49%, 100% 91%, 27% 90%, 0% 50%, 26% 9%);
+  opacity: 0.9;
 }
 
+
+
 #aboutme1 {
-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 #aboutme2 {
-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 
 #profile {
@@ -39,8 +48,15 @@ clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 
 #navFont{
-  font-family: 'Comfortaa', cursive;
+  font-family: 'VALORANT', sans-serif;
   font-size: 20px;
+}
+
+#sectionFont{
+  font-family: 'VALORANT', sans-serif;
+  font-size: 40px;
+
+  clip-path: polygon(20% 0%, 0 0, 0 49%, 0% 80%, 50% 100%, 100% 100%, 100% 80%, 100% 52%, 100% 20%, 52% 0);
 }
 
 #fullName {
@@ -60,8 +76,8 @@ clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
         height:  39rem;
         background: black;
         color: white;
-        background-position: center;
-        background-size: cover;
+        background-position: stretch;
+        background-size: center;
         
       }
       .container {
@@ -73,6 +89,7 @@ clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
       }
       #firstCarousel{
                 background-image: url(img/capstoneproject1.png);
+
                 opacity:0.9;"
       }
       #secondCarousel{
@@ -146,16 +163,17 @@ clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 
 .animatedButton, .animatedButton::after {
 
-  width: 380px;
+  width: 330px;
   height: 86px;
   font-size: 36px;
-  font-family: 'Bebas Neue', cursive;
-  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  font-family: 'VALORANT', sans-serif;
+  background: rgb(255,0,86);
+  background: linear-gradient(90deg, rgba(255,0,86,1) 0%, rgba(255,0,104,1) 100%);
   border: 0;
   color: #fff;
   letter-spacing: 3px;
   line-height: 88px;
-  box-shadow: 6px 0px 0px #EC9DED;
+  box-shadow: 6px 0px 0px #8CD790;
   outline: transparent;
   position: relative;
 }
@@ -181,7 +199,7 @@ clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 
 .animatedButton:hover::after {
-  animation: 1s glitch;
+  animation: 1.5s glitch;
   animation-timing-function: steps(2, end);
 }
 
@@ -231,3 +249,22 @@ clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     transform: translate(0);
   }
 }
+
+
+/*Google Maps Footer*/
+.iframe-rwd  {
+position: relative;
+padding-bottom: 30%;
+height: ;
+overflow: hidden;
+}
+.iframe-rwd iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+

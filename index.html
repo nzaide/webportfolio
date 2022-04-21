@@ -10,7 +10,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <!-- Custom CSS -->
  	  <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -64,13 +64,14 @@
         <h3 class="py-2">
           <strong>I'm</strong>
         </h3>
-        <h1 id="fullName" class="py-3">
+        <h1 id="fullName" class="p-2 border border-white border-5 border-start-0 border-top-0">
           <strong>NORO ZAIDE</strong>
         </h1>
-        <h1  class="py-3">
-          <strong id="myFunc">myFunction() =</strong> <strong id="role">Software Engineer</strong>
+        <h1  class="py-3" >
+          <strong id="myFunc" class="p-2 border border-white border-5 border-end-0 border-bottom-0">UI/UX</strong> <strong id="role">Designer</strong>
         </h1>
-        <button class="text-center animatedButton" onclick="window.location='#contact';"> HIRE ME </button>
+
+        <button class="text-center animatedButton py-3" onclick="window.location='#contact';"> HIRE ME </button>
 
       </div>
       <div class="col-12 col-sm-12 col-md-5 col-lg-6 py-4">
@@ -84,28 +85,20 @@
 
         <!-- About/Developer's info -->
                  <!-- STAND OUT DIV -->
-
-
-
-
-
     <div id="about" class="container align-items-center py-4 my-4" aos="fade-left">
           <div class="row mx-auto">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-              <img id="aboutme1" src="img/freak.jpg" class="img-fluid p-4" alt="image">
+              <img id="aboutme1" src="img/skills5.jpg" class="img-fluid p-4" alt="image">
              </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-              <h1 class="text-center">
-                 <strong>ABOUT ME</strong>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 border border-white border-start-0 border-bottom-0 border-5 p-4">
+              <h1 class="text-center p-4" id="sectionFont">
+                 <strong>Skills</strong>
               </h1>
               <h2 class="text-center">
-                 I am Simple but I <strong> ROCK! </strong> 
-              </h2>
-              <h2 class="text-center">
-                EAT. SLEEP. <strong> CODE. </strong>
+                 I am an all around web developer. I design modern, <strong> beautiful </strong> and <strong> functional </strong> websites.
               </h2>
                <h2 class="text-center">
-                I like to design and focus on UI.
+                I am quite adept in coding and markup languages.
               </h2>
             
             </div>
@@ -117,7 +110,10 @@
           <div class="row mx-auto">
 
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-2 order-md-1">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-2 order-md-1 border border-white border-bottom-0 border-end-0 border-5 p-4">
+              <h1 class="text-center p-4" id="sectionFont">
+                 <strong>About me</strong>
+              </h1>
               <h2>
                  I love <strong> food </strong> and I love to <strong> code! </strong>
               </h2>
@@ -139,6 +135,9 @@
     </div>
 
 
+
+
+
           <h1 class="text-center">
              <strong>PROJECTS</strong>
           </h1>
@@ -150,11 +149,12 @@
           <button type="button" data-bs-target="#projects" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
 
-        <!-- first project -->
     <div class="carousel-inner">
       <div id="firstCarousel" class="carousel-item active" data-bs-interval="8000" >
         <div class="container">
           <div class="carousel-caption d-none d-sm-block">
+
+            
             <h1>
               <strong class="text-light bg-dark">Developer's Portfolio - Capstone Project 1</strong>
             </h1>
@@ -163,28 +163,32 @@
         </div>
       </div>
 
-          <!-- second project -->
+        
       <div id="secondCarousel" class="carousel-item" data-bs-interval="8000">
         <div class="container">
           <div class="carousel-caption d-none d-sm-block">
+
+          
             <h1>
               <strong class="text-light bg-dark">Brand Thy Business</strong>
             </h1>
-            <p class="text-light bg-dark">The project I made inspired by freelancers. I know how much you love freelancing. I love it too.</p>
+            <p class="d-inline-block text-light bg-dark">The project I made inspired by freelancers. I know how much you love freelancing. I love it too.</p>
 
           </div>
         </div>
       </div>
 
 
-            <!-- third project -->
+            
       <div id="thirdCarousel" class="carousel-item" data-bs-interval="8000">
         <div class="container">
           <div class="carousel-caption d-none d-sm-block">
             <h1>
+
+              
               <strong class="text-light bg-dark">Anleo Manpower Agency</strong>
             </h1>
-            <p class="text-light bg-dark">This is my future project. A fully functional website for Anleo Manpower Agency</p>
+            <p class="d-inline-block text-light bg-dark">This is my future project. A fully functional website for Anleo Manpower Agency</p>
           </div>
         </div>
       </div>
@@ -200,40 +204,152 @@
   </button>
   </div>
 
+
+
+
             <!-- Contact/Hire Me page -->
-    <div id="contact" class="container align-items-center py-4 my-4" aos="fade-left">
+    <div id="contact" class="container align-items-center py-4 my-4">
+
+
+      
           <div class="row justify-content-center mx-auto">
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
-              <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.359310557083!2d125.61555427726438!3d7.084278699400833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96da5ea66b701%3A0x828bff19f56aeb9!2sNidea%20St%2C%20Poblacion%20District%2C%20Davao%20City%2C%20Davao%20del%20Sur!5e0!3m2!1sen!2sph!4v1650470252084!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             <div class="iframe-rwd col-12 col-sm-12 col-md-6 col-lg-5 mx-auto my-auto border border-white">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.3556529795487!2d125.61571520980526!3d7.084704576409843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96da5ea66b701%3A0x828bff19f56aeb9!2sNidea%20St%2C%20Poblacion%20District%2C%20Davao%20City%2C%20Davao%20del%20Sur!5e0!3m2!1sen!2sph!4v1650529761603!5m2!1sen!2sph" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
              </div>
 
 
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mx-auto my-auto">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-5 mx-auto my-auto border border-white pb-2">
               <h1 class="text-center">
                  <strong >Contact me:</strong>
               </h1>
+              <div class="row-col justify-content-center">
+                
+                <div class="col">
+                <form>
+                  <div class="form-group m-2">
+                    <div class="input-group">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person m-2" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                      </svg>
+                      <input type="text" class="form-control" name="fullname" placeholder="Your name" required/>
+                    </div>
+                  </div>
+                </div>
 
-              <form class="text-light container bg-muted p-4 mt-3">
+                <div class="col">
+                  <div class="form-group m-2">
+                    <div class="input-group">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope m-2" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                      </svg>
+                      <input type="email" class="form-control" name="fullname" placeholder="Email" required/>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="form-group m-2">
+                    <div class="input-group">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone m-2" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                      </svg>
+                      <input type="number" class="form-control" id="contactNumber" placeholder="Number" required/>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="form-group m-2">
+                    <div class="input-group">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-calendar3 m-2" viewBox="0 0 16 16">
+                        <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                        <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                      </svg>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Book an Appointment</option>
+                        <option>Quotation</option>
+                        <option>Inquiry</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="form-group m-2">
+                    <div class="input-group">
+                      
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 mx-auto my-auto text-center p-2 m-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-send m-2" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                      </svg>
+                        <button type="button" class="d-inline-block btn btn-dark text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Send
+                        </button>
+                      </div>
+                        
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class=" modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you! I will contact you soon!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body text-dark">
+                        Message Successfully Sent
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </form>
+
+
+
+<!--               <form class="col-12 col-sm-12 col-md-6 col-lg-6 mx-auto text-light">
                     <div class="row justify-content-center">
-                      <div class="col-12 col-md-8 col-lg-4 p-2 text-light mx-auto bg-muted text-dark">
-                        <div class="text-light">
+                        <div class="">
                             <label for="fullName" class="form-label">Name</label>
                             <input type="text" class="form-control" id="fullname" >
                         </div>
 
-                        <div class="text-light">
+                        <div class="">
                           <label for="Email" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" >
                         </div>
 
-                        <div class="text-light">
+                        <div class="">
                             <label for="contactNumber" class="form-label">Contact Number</label>
                             <input type="number" class="form-control" id="contactNumber" >
                         </div>
                         
-                        <div class="form-group text-light">
+                        <div class="">
                             <label for="exampleFormControlSelect1" class="text-white">Concern</label>
                             <select class="form-control" id="exampleFormControlSelect1">
                               <option>Book an Appointment</option>
@@ -242,11 +358,11 @@
                             </select>
                           </div>
                         
-                        <div class="text-light">
+                        <div class="">
                             <label for="exampleFormControlTextarea1">Message</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
                         </div>
-                        <div class="text-center p-2 m-2">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 mx-auto my-auto text-center p-2 m-2">
                           <button type="button" class="btn btn-dark text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
                           Send Email
                         </button>
@@ -254,8 +370,7 @@
                         </div>
                         
 
-                        <!-- Modal -->
-                        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class=" modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                           <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
@@ -270,11 +385,11 @@
                               </div>
                             </div>
                           </div>
-                        </div>
+
 
                       </div>  
                     </div>
-                  </form>
+                  </form> -->
              
             
             </div>
