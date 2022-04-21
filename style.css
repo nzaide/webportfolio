@@ -8,12 +8,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 
 body {
-  	background-image: url(img/background.jpg);
+/*  	background-image: url(img/background.jpg);*/
 /*  	background-color: #EECF6D;*/
 
     font-family: 'Lato', sans-serif;
-    background-blend-mode: screen;
-
+/*    background-blend-mode: screen;
+*/
     background: rgb(170,41,255);
     background: linear-gradient(90deg, rgba(170,41,255,1) 0%, rgba(63,76,251,1) 50%, rgba(10,0,57,1) 100%);
 
