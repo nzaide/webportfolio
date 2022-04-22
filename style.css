@@ -22,8 +22,12 @@ body {
     font-family: 'Lato', sans-serif;
     background-blend-mode: screen;
 
+    /*default background chosen during capstone grading*/
+/*    background: rgb(170,41,255);
+    background: linear-gradient(90deg, rgba(170,41,255,1) 0%, rgba(63,76,251,1) 50%, rgba(10,0,57,1) 100%);
+*/
     /*gray background*/
-/*    background: rgb(94,92,108);
+/*  background: rgb(94,92,108);
     background: linear-gradient(90deg, rgba(94,92,108,1) 0%, rgba(86,103,125,1) 50%, rgba(11,85,99,1) 100%);
   */
 
@@ -36,10 +40,21 @@ body {
     background: linear-gradient(137deg, rgba(133,133,133,1) 0%, rgba(24,28,0,1) 0%, rgba(0,25,25,1) 50%, rgba(24,0,0,1) 100%, rgba(117,117,117,1) 100%);
     */
     /*dark cyan background*/
-    background: rgb(133,133,133);
+/*    background: rgb(133,133,133);
     background: linear-gradient(137deg, rgba(133,133,133,1) 0%, rgba(0,0,0,1) 0%, rgba(40,89,72,1) 70%, rgba(24,0,0,1) 100%, rgba(0,0,0,1) 100%);
+*/
 
-  }
+    /*white gradient background*/
+    background: rgb(172,170,170);
+    background: linear-gradient(137deg, rgba(172,170,170,1) 0%, rgba(255,255,255,1) 16%, rgba(24,24,24,1) 100%);
+
+
+  /*gray playful background*/
+  background: rgb(0,0,0);
+  background: linear-gradient(77deg, rgba(0,0,0,1) 0%, rgba(103,103,103,1) 25%, rgba(0,0,0,1) 75%);
+
+}
+
 /*
 to make a decagon shape developer profile picture*/
 #landingphoto {
