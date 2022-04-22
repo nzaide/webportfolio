@@ -1,4 +1,6 @@
 /*Google Font import*/
+@import url('http://fonts.cdnfonts.com/css/valorant');
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
@@ -7,7 +9,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 
-@import url('http://fonts.cdnfonts.com/css/valorant');
+
 
 *{
   margin: 0;
@@ -23,9 +25,9 @@ body {
     background-blend-mode: screen;
 
     /*default background chosen during capstone grading*/
-/*    background: rgb(170,41,255);
+    background: rgb(170,41,255);
     background: linear-gradient(90deg, rgba(170,41,255,1) 0%, rgba(63,76,251,1) 50%, rgba(10,0,57,1) 100%);
-*/
+
     /*gray background*/
 /*  background: rgb(94,92,108);
     background: linear-gradient(90deg, rgba(94,92,108,1) 0%, rgba(86,103,125,1) 50%, rgba(11,85,99,1) 100%);
@@ -45,21 +47,21 @@ body {
 */
 
     /*white gradient background*/
-    background: rgb(172,170,170);
+/*    background: rgb(172,170,170);
     background: linear-gradient(137deg, rgba(172,170,170,1) 0%, rgba(255,255,255,1) 16%, rgba(24,24,24,1) 100%);
-
+*/
 
   /*gray playful background*/
-  background: rgb(0,0,0);
+/*  background: rgb(0,0,0);
   background: linear-gradient(77deg, rgba(0,0,0,1) 0%, rgba(103,103,103,1) 25%, rgba(0,0,0,1) 75%);
-
+*/
 }
 
 /*
 to make a decagon shape developer profile picture*/
 #landingphoto {
   clip-path: polygon(100% 9%, 81% 49%, 100% 91%, 27% 90%, 0% 50%, 26% 9%);
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 
@@ -195,13 +197,13 @@ to make a decagon shape developer profile picture*/
   height: 86px;
   font-size: 36px;
   font-family: 'VALORANT', sans-serif;
-  background: rgb(190,184,235);
-  background: linear-gradient(90deg, rgba(190,184,235,1) 0%, rgba(86,103,125,1) 100%, rgba(11,85,99,1) 100%);
+  background: rgb(14,14,14);
+  background: linear-gradient(77deg, rgba(14,14,14,1) 0%, rgba(255,0,168,1) 25%, rgba(38,0,255,1) 75%, rgba(0,0,0,1) 100%);
   border: 0;
   color: #fff;
   letter-spacing: 3px;
   line-height: 88px;
-  box-shadow: 6px 0px 0px #5299D3;
+  box-shadow: 6px 0px 0px #00ffef;
   outline: transparent;
   position: relative;
 }
@@ -277,7 +279,6 @@ to make a decagon shape developer profile picture*/
     transform: translate(0);
   }
 }
-
 
 /*Google Maps Footer*/
 .iframe-rwd  {
