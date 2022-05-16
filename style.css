@@ -14,19 +14,21 @@
 *{
   margin: 0;
   padding: 0;
+  border: ;
   box-sizing: border-box;
+
 }
 
 body {
-  	background-image: url(img/background.jpg);
+/*  	background-image: url(img/background.jpg);
   	background-color: #EECF6D;
 
     font-family: 'Lato', sans-serif;
-    background-blend-mode: screen;
+    background-blend-mode: screen;*/
 
     /*default background chosen during capstone grading*/
-    background: rgb(170,41,255);
-    background: linear-gradient(90deg, rgba(170,41,255,1) 0%, rgba(63,76,251,1) 50%, rgba(10,0,57,1) 100%);
+background: rgb(0,0,0);
+background: linear-gradient(315deg, rgba(0,0,0,1) 25%, rgba(1,33,107,1) 75%, rgba(0,0,0,1) 100%);
 
     /*gray background*/
 /*  background: rgb(94,92,108);
@@ -55,22 +57,25 @@ body {
 /*  background: rgb(0,0,0);
   background: linear-gradient(77deg, rgba(0,0,0,1) 0%, rgba(103,103,103,1) 25%, rgba(0,0,0,1) 75%);
 */
+
+
+
 }
 
 /*
 to make a decagon shape developer profile picture*/
 #landingphoto {
-  clip-path: polygon(100% 9%, 81% 49%, 100% 91%, 27% 90%, 0% 50%, 26% 9%);
+  clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
   opacity: 0.8;
 }
 
 
 
 #aboutme1 {
-  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
 #aboutme2 {
-  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
 
 #profile {
@@ -160,7 +165,7 @@ to make a decagon shape developer profile picture*/
 
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
+  background: #007bb5;
   color: white;
 }
 
@@ -294,6 +299,283 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+
+
+/*----------------------------------------------- SECTION TRY CAROUSEL 1*/
+#toggleContainer label {
+  text-align: center;
+  width: 70px;
+}
+
+#container {
+  height: 100vh;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#toggleContainer {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 95vw;
+  position: absolute;
+}
+
+
+#galleryContainer { 
+  height: 500px;
+  width: 800px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#toggle {
+  height: 10vh;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+#galleryView {
+  height: 100vh;
+  width: 100vw;
+ /* background: rgb(246,210,106);*/
+  /*background: linear-gradient(111deg, rgba(246,210,106,1) 0%, rgba(255,159,0,1) 52%, rgba(251,197,100,1) 100%);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*#outer3 {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  margin: 10px auto;
+  border-radius: 3px;
+  border: 2px solid white;
+  transition: all 0.5s;
+}*/
+
+#slider3 {
+  height: 36px;
+  width: 46px;
+  background-color: orange;
+  border-radius: 3px;  
+  transition: all 0.5s;
+}
+
+#slider3.active {
+  -webkit-transform: translatex(50px);
+  -ms-transform: translatex(50px);
+  -o-transform: translatex(50px);
+  transform: translatex(50px);
+  transition: all 0.5s;
+  background-color: orange;
+}
+
+#outer3.outerActive {
+  background-color: white;
+  border: 2px solid white;
+  transition: all 0.5s;
+}
+
+#mainView {
+  height: 450px;
+  width: 450px;  
+  border-radius: 5px;
+  background-color: #eb9100;
+  margin-left: 0px;
+  margin-right: 0px;
+  z-index: 1;
+  transition: all 1s;  
+}
+
+#mainView:hover {
+  transform: scale(1.2);
+  transition: all 1s;   
+}
+
+#leftView {
+  height: 400px;
+  width: 150px;
+  opacity: 0.5;
+  border-radius: 5px;
+  transform: skewy(5deg);
+  transform-origin: top right;
+  background-color: #eb9100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;  
+}
+
+#leftView:hover {
+  opacity: 1;
+  transition: all 1s;
+}
+
+#rightView {
+  height: 400px;
+  width: 150px;
+  opacity: 0.5;
+  border-radius: 5px;
+  transform: skewy(-5deg);
+  transform-origin: top left;
+  background-color: #eb9100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ transition: all 1s;
+}
+
+#rightView:hover {
+  opacity: 1;
+  transition: all 1s;
+}
+
+.navBtns {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  opacity: 0.8;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+.navBtns:hover {
+  opacity: 1;
+  transition: all 1s;
+  background-color: #eb9100;
+}
+
+#navLeft {
+  left: 50px;
+}
+
+#navRight {
+  right: 50px;
+}
+
+#linkTag { 
+  cursor: pointer;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+
+
+/*----------------------------------------------- SECTION TRY CAROUSEL 2*/
+
+#tryCarousel2{
+
+background-color: coral;
+}
+
+
+main#carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 8;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 5;
+  --middle: 3;
+  --position: 1;
+  pointer-events: none;
+}
+
+div.item {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: coral;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r)))
+    translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+}
+
+div.item:nth-of-type(1) {
+  --offset: 1;
+  background-color: #90f1ef;
+}
+div.item:nth-of-type(2) {
+  --offset: 2;
+  background-color: #ff70a6;
+}
+div.item:nth-of-type(3) {
+  --offset: 3;
+  background-color: #ff9770;
+}
+div.item:nth-of-type(4) {
+  --offset: 4;
+  background-color: #ffd670;
+}
+div.item:nth-of-type(5) {
+  --offset: 5;
+  background-color: #e9ff70;
+}
+
+input:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(1):checked ~ main#carousel {
+  --position: 1;
+}
+
+input:nth-of-type(2) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(2):checked ~ main#carousel {
+  --position: 2;
+}
+
+input:nth-of-type(3) {
+  grid-column: 4 /5;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(3):checked ~ main#carousel {
+  --position: 3;
+}
+
+input:nth-of-type(4) {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(4):checked ~ main#carousel {
+  --position: 4;
+}
+
+input:nth-of-type(5) {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(5):checked ~ main#carousel {
+  --position: 5;
+}
+
+
+/*----------------------------------------------- SECTION TRY CAROUSEL 2*/
 
 
 
