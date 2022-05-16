@@ -36,7 +36,7 @@ function toggleState3() {
 let imgObject = [
   "img/capstone1card.png",
   "img/capstone2card.png",
-  "img/capstone1card.png"
+  "img/capstone3card.png"
 ];
 
 let mainImg = 0;
