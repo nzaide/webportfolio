@@ -1,5 +1,9 @@
 /*Google Font import*/
-@import url('http://fonts.cdnfonts.com/css/valorant');
+/*@import url('http://fonts.cdnfonts.com/css/valorant');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
@@ -20,15 +24,15 @@
 }
 
 body {
-  	background-image: url(img/background.jpg);
-  	background-color: #EECF6D;
+/*  	background-image: url(img/background.jpg);*/
+  	background-color: BLACK;
 
-    font-family: 'Lato', sans-serif;
-    background-blend-mode: screen;
+/*    font-family: 'Lato', sans-serif;
+    background-blend-mode: screen;*/
 
     /*default background chosen during capstone grading*/
 background: rgb(0,0,0);
-background: linear-gradient(315deg, rgba(0,0,0,1) 25%, rgba(1,33,107,1) 75%, rgba(0,0,0,1) 100%);
+background: linear-gradient(315deg, rgba(0,0,0,1) 19%, rgba(4,25,73,1) 54%, rgba(0,0,0,1) 96%);
 
     /*gray background*/
 /*  background: rgb(94,92,108);
@@ -93,12 +97,12 @@ clip-path: polygon(75% 0%, 91% 50%, 75% 100%, 0% 100%, 13% 49%, 0% 0%);
 }
 
 #navFont{
-  font-family: 'VALORANT', sans-serif;
+  font-family: 'Secular One', sans-serif;
   font-size: 20px;
 }
 
 #sectionFont{
-  font-family: 'VALORANT', sans-serif;
+  font-family: 'Secular One', sans-serif;
   font-size: 40px;
 
 }
@@ -210,7 +214,7 @@ clip-path: polygon(75% 0%, 91% 50%, 75% 100%, 0% 100%, 13% 49%, 0% 0%);
   width: 300px;
   height: 70px;
   font-size: 36px;
-  font-family: 'VALORANT', sans-serif;
+  font-family: 'Secular One', sans-serif;
   background: rgb(14,14,14);
   background: linear-gradient(77deg, rgba(14,14,14,1) 0%, rgba(255,0,168,1) 25%, rgba(38,0,255,1) 75%, rgba(0,0,0,1) 100%);
   border: 0;
