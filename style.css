@@ -20,11 +20,11 @@
 }
 
 body {
-/*  	background-image: url(img/background.jpg);
+  	background-image: url(img/background.jpg);
   	background-color: #EECF6D;
 
     font-family: 'Lato', sans-serif;
-    background-blend-mode: screen;*/
+    background-blend-mode: screen;
 
     /*default background chosen during capstone grading*/
 background: rgb(0,0,0);
@@ -77,6 +77,15 @@ clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 9
 #aboutme2 {
   clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
+
+#project1 {
+clip-path: polygon(100% 0%, 85% 50%, 100% 100%, 25% 100%, 9% 50%, 25% 0%);
+}
+
+#project2 {
+clip-path: polygon(75% 0%, 91% 50%, 75% 100%, 0% 100%, 13% 49%, 0% 0%);
+}
+
 
 #profile {
 	border-radius: 50%;
@@ -198,8 +207,8 @@ clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 9
 
 .animatedButton, .animatedButton::after {
 
-  width: 330px;
-  height: 86px;
+  width: 300px;
+  height: 70px;
   font-size: 36px;
   font-family: 'VALORANT', sans-serif;
   background: rgb(14,14,14);
@@ -367,7 +376,7 @@ height: 100%;
 #slider3 {
   height: 36px;
   width: 46px;
-  background-color: orange;
+  background-color: purple;
   border-radius: 3px;  
   transition: all 0.5s;
 }
@@ -378,7 +387,7 @@ height: 100%;
   -o-transform: translatex(50px);
   transform: translatex(50px);
   transition: all 0.5s;
-  background-color: orange;
+  background-color: purple;
 }
 
 #outer3.outerActive {
@@ -391,11 +400,13 @@ height: 100%;
   height: 450px;
   width: 450px;  
   border-radius: 5px;
-  background-color: #eb9100;
+  background-color: purple;
   margin-left: 0px;
   margin-right: 0px;
   z-index: 1;
   transition: all 1s;  
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
 }
 
 #mainView:hover {
@@ -410,7 +421,7 @@ height: 100%;
   border-radius: 5px;
   transform: skewy(5deg);
   transform-origin: top right;
-  background-color: #eb9100;
+  background-color: purple;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -429,7 +440,7 @@ height: 100%;
   border-radius: 5px;
   transform: skewy(-5deg);
   transform-origin: top left;
-  background-color: #eb9100;
+  background-color: purple;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -456,7 +467,7 @@ height: 100%;
 .navBtns:hover {
   opacity: 1;
   transition: all 1s;
-  background-color: #eb9100;
+  background-color: mediumpurple;
 }
 
 #navLeft {
